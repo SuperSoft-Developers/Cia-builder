@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SuperSoft CIA Builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>SuperSoft CIA Builder</h1>
+    <p>Gerador de projetos Homebrew para Nintendo 3DS</p>
+
+    <input type="text" id="nome" placeholder="Nome do projeto">
+
+    <select id="tipo">
+        <option>Aplicativo</option>
+        <option>Jogo 2D</option>
+        <option>Jogo 3D</option>
+    </select>
+
+    <button onclick="gerar()">Gerar Projeto</button>
+
+    <pre id="saida"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
